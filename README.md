@@ -12,28 +12,10 @@ In other words, data and labels pass through a model (forward pass) and it attem
 
 If this learned relationship isn't close to the actual relationship or it could be improved, the model does so by going back through itself (backward pass) and tweaking its weights and bias values to better represent the data.
 
-Contents of the repository:
-data/: Directory containing the dataset.
-    employee_attrition.csv: The dataset used for analysis.
-modules/: Directory containing Python modules for various tasks.
-     __init__.py: Initializes the modules package.
-     best_learning_rate.py: Functions for determining the best learning rate.
-     data_preparation_.py: Functions for preparing and cleaning the data.
-     evaluation_metrics.py: Functions for calculating evaluation metrics.
-     imports.py: Import statements and configurations.
-     making_prediction.py: Functions for making predictions using the trained model.
-     model_building.py: Functions for building machine learning models.
-     model_evaluation.py: Functions for evaluating the performance of models.
-     model_training.py: Functions for training the models.
-     plotting.py: Functions for plotting graphs and visualizations.
-main.py: The main script to run the analysis.
-requirements.txt: A list of Python packages required for the project.
-README.md: This file, providing an overview of the project.
-
 Installation:
 To use this project, clone the repository and install the required packages:
+      ```sh
       git clone https://github.com/kaurrmanpreett/Deep-Learning.git
-      cd Time Series
       pip install -r requirements.txt
 
 Usage:
@@ -71,7 +53,7 @@ train_model: Trains the model using the provided data.
 plot_data: Plots the given data.
 
 License
-This project is licensed under the MIT License.
+This project is licensed under the Apache License 2.0.
 
 
 
