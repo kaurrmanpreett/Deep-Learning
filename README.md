@@ -14,7 +14,9 @@ If this learned relationship isn't close to the actual relationship or it could 
 
 Installation:
 1. To use this project, clone the repository and install the required packages:
+      ```sh
       git clone https://github.com/kaurrmanpreett/Deep-Learning.git
+      ```
 
 2. Install dependencies
 ```sh
