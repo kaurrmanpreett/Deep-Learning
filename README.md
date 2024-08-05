@@ -13,11 +13,13 @@ In other words, data and labels pass through a model (forward pass) and it attem
 If this learned relationship isn't close to the actual relationship or it could be improved, the model does so by going back through itself (backward pass) and tweaking its weights and bias values to better represent the data.
 
 Installation:
-To use this project, clone the repository and install the required packages:
+1. To use this project, clone the repository and install the required packages:
       git clone https://github.com/kaurrmanpreett/Deep-Learning.git
 
-      ```sh
-      pip install -r requirements.txt
+2. Install dependencies
+```sh
+pip install -r requirements.txt
+```
 
 Usage:
 1. Place your time series data files in the data/ directory.
